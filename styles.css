@@ -76,3 +76,8 @@ footer {
 .animateThis{
     display:inline-block;
 }
+.black-line {
+    height:1%;
+    width:60%;
+    background-color: black;
+}
