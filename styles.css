@@ -1,0 +1,78 @@
+.jumbotron {
+    border-radius: 0px;
+}
+
+body, html{
+    height:100%;
+    margin: 0;
+}
+    
+.main {
+    height:100%;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+}
+
+.navbar {
+    background-color: #002060;
+    z-index: 500
+}
+
+
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbotron{
+    margin:0px;
+}
+
+
+
+
+#title-screen {
+    height:100%;
+}
+
+#goal1-screen {
+    background-color: green;
+}
+
+#pinContainer {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    -webkit-perspective: 1000;
+            perspective: 1000;
+}
+#slideContainer {
+    width: 400%; /* to contain 4 panels, each with 100% of window width */
+    height: 100%;
+}
+.custom-panel {
+    height: 100%;
+    width: 25%; /* relative to parent -> 25% of 400% = 100% of window width */
+    float: left;
+}
+
+#panel-2, #panel-3{
+    font-size:1.5em;
+}
+#panel-4 {
+    font-size:3em;
+}
+
+.headings {
+    font-size:6em;
+}
+
+.animateThis{
+    display:inline-block;
+}
