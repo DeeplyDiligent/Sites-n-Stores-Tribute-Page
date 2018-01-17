@@ -77,7 +77,7 @@ footer {
     display:inline-block;
 }
 .black-line {
-    height:1%;
+    height:0.5%;
     width:60%;
     background-color: black;
 }
